@@ -1,5 +1,5 @@
 const startButton = document.getElementById('start-btn')
-const questionContainerElement = document.getElementById('question-container')
+const  = nextButton = document.getElementById('question-container')
 const questionContainerElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
@@ -41,7 +41,10 @@ function showQuestion(question) {
 function resetState(){
     setNextQuestion.classList.add('hide')
     while (answerButtonsElement.firstChild) {
-        answerButtonsElement.removeChild(answerButtonsElement.firstChild)
+        answerButtonsElement.removeChild(answerButtonsElement.firstChild) {
+            answerButtonsElement.removeChild
+            (answerButtonsElement.firstChild)
+        }
     }
 
 }
