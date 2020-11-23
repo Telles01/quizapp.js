@@ -41,7 +41,7 @@ function showQuestion(question) {
 function resetState(){
     setNextQuestion.classList.add('hide')
     while (answerButtonsElement.firstChild) {
-        answerButtonsElement.removeChild(answerButtonsElement.first)
+        answerButtonsElement.removeChild(answerButtonsElement.firstChild)
     }
 
 }
